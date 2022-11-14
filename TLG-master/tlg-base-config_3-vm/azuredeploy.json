@@ -73,7 +73,7 @@
       "metadata": {
         "description": "Auto-generated container in staging storage account to receive post-build staging folder upload."
       },
-      "defaultValue": "https://raw.githubusercontent.com/nilesh-jy03/TLG/tree/master/tlg-base-config_3-vm"
+      "defaultValue": "https://raw.githubusercontent.com/nilesh-jy03/TLG-master/tree/master/TLG-master/tlg-base-config_3-vm"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
