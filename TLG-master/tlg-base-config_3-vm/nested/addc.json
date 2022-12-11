@@ -39,7 +39,7 @@
             "publisher": "MicrosoftWindowsServer",
             "offer": "WindowsServer",
             "sku": "[parameters('SharedVmConfig').serverOS]",
-            "version": "17763.3131.220505"
+            "version": "20348.643.220403"
           },
           "osDisk": {
             "createOption": "FromImage"
