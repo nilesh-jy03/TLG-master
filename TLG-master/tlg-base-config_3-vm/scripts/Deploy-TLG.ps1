@@ -10,20 +10,20 @@
 #>
 
 # Provide parameter values
-$subscription = "subscription name"
-$resourceGroup = "resource group name"
-$location = "location, i.e. West US"
+$subscription = "53a9aadf-91b7-4603-ab86-68f16106f638"
+$resourceGroup = "Hybrid-rg"
+$location = "East US"
 
-$configName = "" # The name of the deployment, i.e. BaseConfig01. Do not use spaces or special characters other than _ or -. Used to concatenate resource names for the deployment.
-$domainName = "" # The FQDN of the new AD domain.
+$configName = "TlgBaseConfig-01" # The name of the deployment, i.e. BaseConfig01. Do not use spaces or special characters other than _ or -. Used to concatenate resource names for the deployment.
+$domainName = "corp.contoso.com" # The FQDN of the new AD domain.
 $serverOS = "2016-Datacenter" # The OS of application servers in your deployment, i.e. 2016-Datacenter or 2012-R2-Datacenter.
-$adminUserName = "" # The name of the domain administrator account to create, i.e. globaladmin.
-$adminPassword = "" # The administrator account password.
-$deployClientVm = "Yes" # Yes or No
+$adminUserName = "demouser" # The name of the domain administrator account to create, i.e. globaladmin.
+$adminPassword = "Shriram@9151" # The administrator account password.
+$deployClientVm = "No" # Yes or No
 $clientVhdUri = "" # The URI of the storage account containing the client VHD. Leave blank if you are not deploying a client VM.
 $vmSize = "Standard_DS2_v2" # Select a VM size for all server VMs in your deployment.
 $dnsLabelPrefix = "" # DNS label prefix for public IPs. Must be lowercase and match the regular expression: ^[a-z][a-z0-9-]{1,61}[a-z0-9]$.
-$_artifactsLocation = "https://raw.githubusercontent.com/oualabadmins/lab_deploy/master/tlg-base-config_3-vm" # Location of template artifacts.
+$_artifactsLocation = "https://raw.githubusercontent.com/nilesh-jy03/TLG-master/master/TLG-master/tlg-base-config_3-vm" # Location of template artifacts.
 $_artifactsLocationSasToken = "" # Enter SAS token here if needed.
 $templateUri = "$_artifactsLocation/azuredeploy.json"
 
