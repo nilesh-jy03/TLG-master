@@ -11,7 +11,7 @@
 
 # Provide parameter values
 $subscription = "53a9aadf-91b7-4603-ab86-68f16106f638"
-$resourceGroup = "Hybrid-rg"
+$resourceGroup = "Hybrid-"
 $location = "East US"
 
 $configName = "TlgBaseConfig-01" # The name of the deployment, i.e. BaseConfig01. Do not use spaces or special characters other than _ or -. Used to concatenate resource names for the deployment.
